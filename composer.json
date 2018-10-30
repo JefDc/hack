@@ -1,26 +1,17 @@
 {
-    "name": "aurel/simple-mvc",
-    "description": "Simple from scratch PHP MVC",
+    "name": "jefdc/hackathon",
     "authors": [
         {
-            "name": "Aurelien",
-            "email": "barbier.aurelien@wildcodeschool.fr"
+            "name": "Jef De CONTI",
+            "email": "jefdc05@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
-        "php" : ">=7",
-        "ext-pdo" : "*",
-        "nikic/fast-route": "^1.2",
-        "twig/twig": "^2.4"
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "*"
+        "twig/twig": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "": "src/",
-            "App\\": "app/"
+            "App\\": "src/"
         }
     }
 }
